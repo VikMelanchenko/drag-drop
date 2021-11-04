@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: #2bc0e4;
+  background: linear-gradient(to right, #274046, #e6dada);
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #111;
+  text-align: center;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  /* border: 1px solid rgb(87, 87, 87); */
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #696969;
+  padding: 1.3rem 1rem;
+  color: #fff;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: linear-gradient(90deg, #a5a4a4 0%, #464545 179.25%);
+}
+
+.prigress {
+  background: linear-gradient(90deg, #494949 0%, #d4cdcd 160.25%);
+}
+
+.done {
+  background: linear-gradient(90deg, #bbb8b8 0%, #757575 179.25%);
+}
+
+.hold {
+  border: 1px solid #eee;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px solid #3e4142;
+}
